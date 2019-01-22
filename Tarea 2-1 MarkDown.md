@@ -43,7 +43,7 @@ Now we specify both restriction enzymes using the `--renz_1` and `--renz_2` flag
 ```
 #### The output of process_radtags
 
-The output of the **`process_radtags`** differs depending if you are processing single-end or paired-end data. In the case of single-end reads, the program will output one file per barcode into the output directory you specify. If the data do not have barcodes, then the file will retain its original name.
+The output of the **`process_radtags`** differs depending if you are processing single-end or paired-end data. In the case of *single-end reads*, the program will output one file per barcode into the output directory you specify. If the data do not have barcodes, then the file will retain its original name.
 
 If you are processing *paired-end reads*, then you will get four files per barcode, two for the single-end read and two for the paired-end read. For example, given barcode ACTCG, you would see the following four files:
 

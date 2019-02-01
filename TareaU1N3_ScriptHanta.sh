@@ -1,13 +1,13 @@
-#!/bin/bash/
-#Script para bajar 5 secuencias desde NCBI
-#Crear directorio para guardar los datos y luego cambiar a ese directorio
+#!/bin/bash
+#Script para bajar 5 secuencias del segmento M de distintas cepas de Hantavirus desde NCBI (Nucleotide)
+#Crear directorio para guardar los archivos de hantavirus y luego cambiar a ese directorio
 mkdir -p Hantavirus
 cd ./Hantavirus
 #Bajar secuencias de Hantavirus desde NCBI
 curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&id=23464593,38371712,38371718,38371723,255983860" > Hantavirus_Cepas.txt
 #Revisar las secuencias bajadas de Hantavirus desde NCBI
 grep ">" ./Hantavirus_Cepas.txt
-#Obtener números de líneas de los nombres
+#Obtener nÃºmeros de lÃ­neas de los nombres
 grep -n ">" ./Hantavirus_Cepas.txt
 #separar cepas en distintos archivos
 sed '1,55!d' ./Hantavirus_Cepas.txt > Andes.txt

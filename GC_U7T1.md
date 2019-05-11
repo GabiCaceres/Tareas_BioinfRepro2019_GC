@@ -5,6 +5,8 @@ TM. Gabriela Cáceres Rojas
 
 Estudiante de Magíster en Genética, Universidad de Chile
 
+10/05/2019
+
 ### Introduccion
 
 La tecnología de Microarray es la herramienta de primera línea al realizar experimentos de expresión génica, este permite analizar simultáneamente muestras con distintos tratamientos o condiciones y la expresión de miles de genes usando el mRNA. Esta tecnología se basa en la hibridación del mRNA con fluoróforos, esto emite una señal lumínica que es captada y luego la imagen debe ser procesada a una matriz numérica para hacer posible el análisis de estos datos. Esto se realiza mediante diferentes softwares bioinformáticos donde el más usado es R y ciertos paquetes de BioConductor.
@@ -37,33 +39,39 @@ Data.Raw <- dplyr::rename(Data.Raw, ProbeID = ID_REF)``
 
 ``genes.int <- tapply(probes.int, results$EntrezID, all)``
 
-## Resultados
+### Resultados
 
 el control de calidad previo al analisis de datos se evidencia en los graficos presentes en las figuras 1, 2 y 3.
 
 ![Figura 1.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/boxplot_raw_probe_qc.png?raw=true)
+
 Figura 1. Diagramas de cajas y bigotes de datos sin procesar segun calidad de la sonda. en rojo se muestras las sondas con calidad "buena" o superior y en verde las sondas con calidad "mala".
 
 ![Figura 2.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/boxplot_raw_treatment.png?raw=true)
+
 Figura 2. Diagramas de cajas y bigotes de datos sin procesar según tratamiento. en Verde se muestra el tratamiento sin castrar (I) y en rojo el castrado (C)
 
 ![Figura 3.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/Pairs_scatter_log2.png?raw=true)
+
 Figura 3. Diagramas de dispersión de datos sin procesar en escala log2.
 
 el resultado de las permutaciones se puede observar en la figura 4.
 
 ![Figura 4.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/P-values%20Hist.png?raw=true)
+
 Figura 4. Distribución de p-values en muestra y permutaciones. Ptab se refiere a los valores p de las muestras (tabular), Pvalperm son los valores p obtenidos de la prueba de permutación, F1 son los valores obtenido de una pueba de F convencional y Fs de una prueba de F con contracción de la varianza.
 
 el análisis de genes diferencialmente expresados se puede apreciar en las figuras 5 y 6.
 
 ![Figura 5.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/vennDiagram_DiffExprs.png?raw=true)
+
 Figura 5. Diagrama de Venn de genes diferencialmente expresados segun interacción, genotipo o tratamiento.
 
 ![Figura 6.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/vennDiagram_Int.png?raw=true)
+
 Figura 6. Diagrama de Venn de genes diferencialmente expresados. A la izquierda se encuentra segun su tratamiento (C o I) y e la derecha se encuentra segun el genotipo (B o BY)
 
-## Conclusiones
+### Conclusiones
 
 el preanalisis de control de calidad en microarray es un paso importante para determinar si estos son aptos o no para el analisis posterior, en este caso se puede apreciar que los datos de microarray obtenidos cumplen con la calidad minima y estan en optimas condiciones para ser procesados y filtrados luego.
 
@@ -71,8 +79,8 @@ la prueba de permutacion muestra que la distribucion de los valores p obtenidos 
 
 los diagramas de venn demuestran que si existen genes diferencialmente expresados. en el primer grafico se observa que hay una mayor cantidad de genes diferencialmente expresados versus los que no se detectaron como diferencialmente expresados, ya demás que estos son mas segun genotipo o tratamiento por si solos que por interaccion. En la figura 6 se observa que, segun tratamiento, hay una mayor cantidad de genes diferencialmente expresados en los castrados versus los ratones sin castrar y, según el genotipo de estos, los ratones BY presentan mayor cantidad de genes diferencialmente expresados versus los B. 
 
-## Referencias
+### Referencias
 
 Llamas B, Verdugo RA, Churchill GA, Deschepper CF. 2009. Chromosome Y variants from different inbred mouse strains are linked to differences in the morphologic and molecular responses of cardiac cells to postpubertal testosterone. BMC Genomics. 2009 Apr 7;10:150. doi: 10.1186/1471-2164-10-150 (Primera autoría compartida) ISI 4.4 ISSN 1471-2105
 
-
+Bumgarner, R. (2013), Overview of DNA Microarrays: Types, Applications, and Their Future. Current Protocols in Molecular Biology, 101: 22.1.1-22.1.11. doi:10.1002/0471142727.mb2201s101

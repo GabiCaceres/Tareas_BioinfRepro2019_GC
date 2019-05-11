@@ -39,20 +39,35 @@ Data.Raw <- dplyr::rename(Data.Raw, ProbeID = ID_REF)``
 
 ## Resultados
 
-el control de calidad previo al analisis de datos se evidencia en los graficos presentes en la figura 1, 2 y 3.
+el control de calidad previo al analisis de datos se evidencia en los graficos presentes en las figuras 1, 2 y 3.
 
-![Figrua 1.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/boxplot_raw_probe_qc.png?raw=true)
-Figura 1.
+![Figura 1.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/boxplot_raw_probe_qc.png?raw=true)
+Figura 1. Diagramas de cajas y bigotes de datos sin procesar segun calidad de la sonda. en rojo se muestras las sondas con calidad "buena" o superior y en verde las sondas con calidad "mala".
 
-![Figrua 2.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/boxplot_raw_treatment.png?raw=true)
+![Figura 2.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/boxplot_raw_treatment.png?raw=true)
+Figura 2. Diagramas de cajas y bigotes de datos sin procesar según tratamiento. en Verde se muestra el tratamiento sin castrar (I) y en rojo el castrado (C)
 
-![Figrua 3.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/Pairs_scatter_log2.png?raw=true)
+![Figura 3.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/Pairs_scatter_log2.png?raw=true)
+Figura 3. Diagramas de dispersión de datos sin procesar en escala log2.
 
-![Figrua 4.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/P-values%20Hist.png?raw=true)
+el resultado de las permutaciones se puede observar en la figura 4.
 
-![Figrua 5.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/vennDiagram_DiffExprs.png?raw=true)
+![Figura 4.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/P-values%20Hist.png?raw=true)
+Figura 4. Distribución de p-values en muestra y permutaciones. Ptab se refiere a los valores p de las muestras (tabular), Pvalperm son los valores p obtenidos de la prueba de permutación, F1 son los valores obtenido de una pueba de F convencional y Fs de una prueba de F con contracción de la varianza.
 
-![Figrua 6.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/vennDiagram_Int.png?raw=true)
+el análisis de genes diferencialmente expresados se puede apreciar en las figuras 5 y 6.
+
+![Figura 5.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/vennDiagram_DiffExprs.png?raw=true)
+Figura 5. Diagrama de Venn de genes diferencialmente expresados segun interacción, genotipo o tratamiento.
+
+![Figura 6.](https://github.com/GabiCaceres/Tareas_BioinfRepro2019_GC/blob/master/vennDiagram_Int.png?raw=true)
+Figura 6. Diagrama de Venn de genes diferencialmente expresados. A la izquierda se encuentra segun su tratamiento (C o I) y e la derecha se encuentra segun el genotipo (B o BY)
 
 ## Conclusiones
+
+el preanalisis de control de calidad en microarray es un paso importante para determinar si estos son aptos o no para el analisis posterior, en este caso se puede apreciar que los datos de microarray obtenidos cumplen con la calidad minima y estan en optimas condiciones para ser procesados y filtrados luego.
+
+la prueba de permutacion muestra que la distribucion de los valores p obtenidos de la muestra problema y de las permutaciones es muy similar, por lo que nos dice que nuestros valores obtenidos probablemente si sean producto del tratamiento.
+
+los diagramas de venn demuestran que si existen genes diferencialmente expresados, 
 

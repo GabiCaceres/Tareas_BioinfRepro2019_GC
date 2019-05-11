@@ -81,6 +81,6 @@ los diagramas de venn demuestran que si existen genes diferencialmente expresado
 
 ### Referencias
 
-Llamas B, Verdugo RA, Churchill GA, Deschepper CF. 2009. Chromosome Y variants from different inbred mouse strains are linked to differences in the morphologic and molecular responses of cardiac cells to postpubertal testosterone. BMC Genomics. 2009 Apr 7;10:150. doi: 10.1186/1471-2164-10-150 (Primera autoría compartida) ISI 4.4 ISSN 1471-2105
-
 Bumgarner, R. (2013), Overview of DNA Microarrays: Types, Applications, and Their Future. Current Protocols in Molecular Biology, 101: 22.1.1-22.1.11. doi:10.1002/0471142727.mb2201s101
+
+Llamas B, Verdugo RA, Churchill GA, Deschepper CF. 2009. Chromosome Y variants from different inbred mouse strains are linked to differences in the morphologic and molecular responses of cardiac cells to postpubertal testosterone. BMC Genomics. 2009 Apr 7;10:150. doi: 10.1186/1471-2164-10-150 (Primera autoría compartida) ISI 4.4 ISSN 1471-2105

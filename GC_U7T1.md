@@ -69,5 +69,10 @@ el preanalisis de control de calidad en microarray es un paso importante para de
 
 la prueba de permutacion muestra que la distribucion de los valores p obtenidos de la muestra problema y de las permutaciones es muy similar, por lo que nos dice que nuestros valores obtenidos probablemente si sean producto del tratamiento.
 
-los diagramas de venn demuestran que si existen genes diferencialmente expresados, 
+los diagramas de venn demuestran que si existen genes diferencialmente expresados. en el primer grafico se observa que hay una mayor cantidad de genes diferencialmente expresados versus los que no se detectaron como diferencialmente expresados, ya demás que estos son mas segun genotipo o tratamiento por si solos que por interaccion. En la figura 6 se observa que, segun tratamiento, hay una mayor cantidad de genes diferencialmente expresados en los castrados versus los ratones sin castrar y, según el genotipo de estos, los ratones BY presentan mayor cantidad de genes diferencialmente expresados versus los B. 
+
+## Referencias
+
+Llamas B, Verdugo RA, Churchill GA, Deschepper CF. 2009. Chromosome Y variants from different inbred mouse strains are linked to differences in the morphologic and molecular responses of cardiac cells to postpubertal testosterone. BMC Genomics. 2009 Apr 7;10:150. doi: 10.1186/1471-2164-10-150 (Primera autoría compartida) ISI 4.4 ISSN 1471-2105
+
 

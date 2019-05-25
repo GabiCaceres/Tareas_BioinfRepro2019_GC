@@ -24,8 +24,7 @@ Para optimizar este flujo de trabajo, considerando el tipo de genoma y organismo
 
 Para realizar el cambio de valores a los parámetros –m y –M de 1 hasta 5 se debe modificar en ustacks siguiendo la combinatoria de valores representada en codigo más adelante, luego seguir con la metodología recomendada para realizar el analisis *de novo* donde se usan las siguientes herramientas en orden: ustacks (modificado en este caso), cstacks, sstacks, tsv2bam, gstacks y finalmente populations.
 
-``
-ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 1] [-m 1]
+`ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 1] [-m 1]
 
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 1] [-m 2]
 
@@ -74,7 +73,7 @@ ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 5] [-m 3]
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 5] [-m 4]
 
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 5] [-m 5]
-``
+`
 
 ### Referencias
 Paris, J. R., Stevens, J. R., & Catchen, J. M. (2017). Lost in parameter space: a road map for stacks . Methods in Ecology and Evolution, 8(10), 1360–1373. doi:10.1111/2041-210x.12775

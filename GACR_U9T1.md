@@ -26,29 +26,53 @@ Para realizar el cambio de valores a los parámetros –m y –M de 1 hasta 5 se
 
 `
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 1] [-m 1]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 1] [-m 2]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 1] [-m 3]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 1] [-m 4]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 1] [-m 5]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 2] [-m 1]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 2] [-m 2]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 2] [-m 3]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 2] [-m 4]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 2] [-m 5]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 3] [-m 1]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 3] [-m 2]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 3] [-m 3]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 3] [-m 4]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 3] [-m 5]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 4] [-m 1]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 4] [-m 2]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 4] [-m 3]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 4] [-m 4]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 4] [-m 5]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 5] [-m 1]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 5] [-m 2]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 5] [-m 3]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 5] [-m 4]
+
 ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 5] [-m 5]
 `
 

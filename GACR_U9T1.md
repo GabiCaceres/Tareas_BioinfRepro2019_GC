@@ -53,7 +53,10 @@ ustacks –f [RUTA_ARCHIVO1] -o [RUTA_OUTPUT] [-M 5] [-m 5]
 `
 
 ### Referencias
-Paris, J. R., Stevens, J. R., & Catchen, J. M. (2017). Lost in parameter space: a road map for stacks . Methods in Ecology and Evolution, 8(10), 1360–1373. doi:10.1111/2041-210x.12775 
+Paris, J. R., Stevens, J. R., & Catchen, J. M. (2017). Lost in parameter space: a road map for stacks . Methods in Ecology and Evolution, 8(10), 1360–1373. doi:10.1111/2041-210x.12775
+
 Mastretta-Yanes, A., Arrigo, N., Alvarez, N., Jorgensen, T. H., Piñero, D., & Emerson, B. C. (2014). Restriction site-associated DNA sequencing, genotyping error estimation andde novoassembly optimization for population genetic inference. Molecular Ecology Resources, 15(1), 28–41. doi:10.1111/1755-0998.12291 
+
 J. Catchen, P. Hohenlohe, S. Bassham, A. Amores, and W. Cresko. Stacks: an analysis tool set for population genomics. Molecular Ecology. 2013. [reprint]
+
 J. Catchen, A. Amores, P. Hohenlohe, W. Cresko, and J. Postlethwait. Stacks: building and genotyping loci de novo from short-read sequences. G3: Genes, Genomes, Genetics, 1:171-182, 2011. [reprint]
